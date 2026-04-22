@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Gentle Cut</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: #f3f4f6; transition: opacity 0.4s ease, transform 0.4s ease; }
+        h1, h2, h3, .font-oswald { font-family: 'Oswald', sans-serif; }
+        .text-gold { color: #c5a059; }
+        .bg-gold { background-color: #c5a059; }
+        .border-gold { border-color: #c5a059; }
+        .glass-nav-dark { background: rgba(10, 10, 10, 0.85); backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+        .menu-row { border-bottom: 1px dashed rgba(255, 255, 255, 0.1); padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
+        .menu-row:last-child { border-bottom: none; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-fade { opacity: 0; animation: fadeInUp 0.8s ease-out forwards; }
+    </style>
+</head>
+<body id="page-body">
+
+    <nav class="fixed top-0 w-full z-50 glass-nav-dark">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold tracking-widest uppercase text-white font-oswald nav-link">
+                GENTLE<span class="text-gold">CUT</span>
+            </a>
+            <div class="hidden md:flex space-x-8 text-xs font-semibold uppercase tracking-widest text-gray-400">
+                <a href="index.html" class="hover:text-gold transition-colors nav-link">Home</a>
+                <a href="studio.html" class="hover:text-gold transition-colors nav-link">The Studio</a>
+                <a href="services.html" class="text-white hover:text-gold transition-colors nav-link">Services</a>
+            </div>
+            <a href="https://wa.me/6289513363368" target="_blank" class="hidden md:inline-block px-6 py-3 bg-white text-black font-oswald font-bold uppercase tracking-widest text-sm hover:bg-gold hover:text-white transition-colors">
+                Book Now
+            </a>
+        </div>
+    </nav>
+
+    <header class="pt-40 pb-16 text-center px-6 animate-fade">
+        <span class="text-xs uppercase tracking-[0.4em] text-gold mb-4 block font-bold">The Grooming Menu</span>
+        <h1 class="text-5xl md:text-7xl font-oswald uppercase text-white mb-6">Our Services.</h1>
+        <p class="max-w-2xl mx-auto font-light text-gray-400">Pilih layanan yang Anda butuhkan dan biarkan master *barber* kami memberikan sentuhan terbaiknya.</p>
+    </header>
+
+    <section class="py-12 px-6 max-w-4xl mx-auto animate-fade" style="animation-delay: 0.1s;">
+        
+        <div class="mb-20">
+            <h2 class="text-2xl font-oswald uppercase text-gold mb-8 tracking-widest">I. Haircuts & Styling</h2>
+            
+            <div class="menu-row flex flex-col md:flex-row md:items-start justify-between gap-4">
+                <div class="flex-1">
+                    <h3 class="text-xl font-oswald uppercase text-white mb-1">Gentleman's Cut</h3>
+                    <p class="text-sm font-light text-gray-400 line-clamp-2">Konsultasi, cuci rambut, potongan presisi, styling pomade, pijat ringan.</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <span class="text-lg font-oswald text-white">Rp 75K</span>
+                    <a href="https://wa.me/6289513363368?text=Halo%20Gentle%20Cut,%20saya%20ingin%20booking%20*Gentleman's%20Cut*%20seharga%2075K." target="_blank" class="px-4 py-2 border border-gold text-gold text-[10px] font-bold uppercase tracking-widest hover:bg-gold hover:text-black transition-colors">Book</a>
+                </div>
+            </div>
+
+            <div class="menu-row flex flex-col md:flex-row md:items-start justify-between gap-4">
+                <div class="flex-1">
+                    <h3 class="text-xl font-oswald uppercase text-white mb-1">Buzz Cut / Clipper Only</h3>
+                    <p class="text-sm font-light text-gray-400 line-clamp-2">Potongan cepak rapi menggunakan mesin cukur seluruhnya.</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <span class="text-lg font-oswald text-white">Rp 50K</span>
+                    <a href="https://wa.me/6289513363368?text=Halo%20Gentle%20Cut,%20saya%20ingin%20booking%20*Buzz%20Cut*%20seharga%2050K." target="_blank" class="px-4 py-2 border border-gold text-gold text-[10px] font-bold uppercase tracking-widest hover:bg-gold hover:text-black transition-colors">Book</a>
+                </div>
+            </div>
+            
+            <div class="menu-row flex flex-col md:flex-row md:items-start justify-between gap-4">
+                <div class="flex-1">
+                    <h3 class="text-xl font-oswald uppercase text-white mb-1">Junior Cut (Under 12)</h3>
+                    <p class="text-sm font-light text-gray-400 line-clamp-2">Layanan cukur khusus anak dengan penanganan ekstra sabar.</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <span class="text-lg font-oswald text-white">Rp 45K</span>
+                    <a href="https://wa.me/6289513363368?text=Halo%20Gentle%20Cut,%20saya%20ingin%20booking%20*Junior%20Cut*%20seharga%2045K." target="_blank" class="px-4 py-2 border border-gold text-gold text-[10px] font-bold uppercase tracking-widest hover:bg-gold hover:text-black transition-colors">Book</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-20">
+            <h2 class="text-2xl font-oswald uppercase text-gold mb-8 tracking-widest">II. Shaving & Beard</h2>
+            
+            <div class="menu-row flex flex-col md:flex-row md:items-start justify-between gap-4">
+                <div class="flex-1">
+                    <h3 class="text-xl font-oswald uppercase text-white mb-1">Traditional Royal Shave</h3>
+                    <p class="text-sm font-light text-gray-400 line-clamp-2">Hot towel, krim cukur eksklusif, straight razor shave, soothing balm.</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <span class="text-lg font-oswald text-white">Rp 50K</span>
+                    <a href="https://wa.me/6289513363368?text=Halo%20Gentle%20Cut,%20saya%20ingin%20booking%20*Royal%20Shave*%20seharga%2050K." target="_blank" class="px-4 py-2 border border-gold text-gold text-[10px] font-bold uppercase tracking-widest hover:bg-gold hover:text-black transition-colors">Book</a>
+                </div>
+            </div>
+
+            <div class="menu-row flex flex-col md:flex-row md:items-start justify-between gap-4">
+                <div class="flex-1">
+                    <h3 class="text-xl font-oswald uppercase text-white mb-1">Beard Sculpting</h3>
+                    <p class="text-sm font-light text-gray-400 line-clamp-2">Trim dan perapian bentuk brewok, hot towel, dan aplikasi beard oil.</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <span class="text-lg font-oswald text-white">Rp 60K</span>
+                    <a href="https://wa.me/6289513363368?text=Halo%20Gentle%20Cut,%20saya%20ingin%20booking%20*Beard%20Sculpting*%20seharga%2060K." target="_blank" class="px-4 py-2 border border-gold text-gold text-[10px] font-bold uppercase tracking-widest hover:bg-gold hover:text-black transition-colors">Book</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-10 bg-[#161616] p-8 border border-gold">
+            <h2 class="text-2xl font-oswald uppercase text-gold mb-6 tracking-widest">III. VIP Packages</h2>
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+                <div class="flex-1">
+                    <h3 class="text-2xl font-oswald uppercase text-white mb-2">The Executive</h3>
+                    <p class="text-sm font-light text-gray-400 leading-relaxed mb-4">Perawatan paripurna. Mencakup *Gentleman's Cut*, *Royal Shave*, *Black Mask Peel-off* untuk membersihkan komedo, dilanjutkan dengan pijat relaksasi kepala, leher, dan bahu yang ekstensif.</p>
+                </div>
+                <div class="flex flex-col items-center sm:items-end gap-3">
+                    <span class="text-3xl font-oswald text-white">Rp 150K</span>
+                    <a href="https://wa.me/6289513363368?text=Halo%20Gentle%20Cut,%20saya%20mau%20booking%20paket%20VIP%20*The%20Executive*%20(150K).%20Bisa%20diaturkan%20jadwalnya?" target="_blank" class="w-full text-center px-8 py-3 bg-gold text-black text-xs font-bold uppercase tracking-widest hover:bg-white transition-colors">Book VIP</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-[#050505] py-16 px-6 text-center mt-10">
+        <div class="max-w-4xl mx-auto">
+            <a href="index.html" class="nav-link text-3xl font-bold tracking-widest uppercase text-white font-oswald mb-8 block">GENTLE<span class="text-gold">CUT</span></a>
+            <p class="text-[10px] font-semibold uppercase tracking-widest text-gray-600">&copy; 2026 Gentle Cut Barbershop.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const body = document.getElementById("page-body");
+            const extLinks = document.querySelectorAll(".nav-link");
+            extLinks.forEach(link => {
+                link.addEventListener("click", function(e) {
+                    e.preventDefault(); 
+                    const targetUrl = this.getAttribute("href");
+                    body.style.opacity = "0"; body.style.transform = "scale(0.98)";
+                    setTimeout(() => { window.location.href = targetUrl; }, 400);
+                });
+            });
+        });
+        window.addEventListener('pageshow', function (event) {
+            const body = document.getElementById("page-body");
+            if (body) { body.style.opacity = "1"; body.style.transform = "scale(1)"; }
+        });
+    </script>
+</body>
+</html>
